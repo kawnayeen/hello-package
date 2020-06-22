@@ -7,16 +7,16 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
-class LibraryTest {
+class GithubLibTest {
     @Test
     fun testSomeLibraryMethod() {
-        val classUnderTest = Library()
+        val classUnderTest = GithubLib()
         assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'")
     }
 
     @Test
     fun testSayName() {
-        val lib = Library()
-        assertEquals("Github Package", lib.sayName())
+        val lib = GithubLib()
+        assertEquals("Github Package", lib.sayHello())
     }
 }

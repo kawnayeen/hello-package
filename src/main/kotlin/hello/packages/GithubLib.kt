@@ -3,12 +3,12 @@
  */
 package hello.packages
 
-class Library {
+class GithubLib {
     fun someLibraryMethod(): Boolean {
         return true
     }
 
-    fun sayName(): String {
-        return "Github Package"
+    fun sayHello(): String {
+        return "Hello from github package"
     }
 }
