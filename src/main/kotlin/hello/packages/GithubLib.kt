@@ -4,11 +4,7 @@
 package hello.packages
 
 class GithubLib {
-    fun someLibraryMethod(): Boolean {
-        return true
-    }
-
     fun sayHello(): String {
-        return "Hello from github package"
+        return "Hello lib v0.3"
     }
 }
